@@ -35,15 +35,15 @@ input{
 }
 @media (max-width: 375px) {
   body {
-    font-size: 16px;
+    font-size: 14px;
   }
   .image {
-    width: 100%;
+    width: 90%;
   }
 }
 @media (min-width: 1440px) {
   body {
-    font-size: 18px;
+    font-size: 14px;
   }
   .container {
     width: 80%; 
