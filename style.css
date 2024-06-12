@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(205, 221, 235);
+    font-family:"Times New Roman", Times, serif;
+    font-size: 12px;
+}
+.first{
+    display: flex;
+}
+.lastname{
+    padding: 0 0 0 10px;
+}
+form{
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 370px;
+  border-radius:5px;
+  background-color: white;
+  padding: 10px;
+  margin-top: 150px;
+  margin-bottom: 70px;
+}
+#email{
+    width: 95%;
+}
+input{
+   margin-bottom: 14px;
+}
+
+#qry,#qry1{
+    border: 1px solid rgb(54, 53, 53);
+    padding:2px 35px 0 10px;
+    border-radius: 5px;
+    height: 25px;
+}
+#qry1{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.qry{
+    display: flex;
+}
+input[type="submit"]{
+    display: block;
+    width: 200px;
+    background-color: #6b94ee;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin:0 auto;
+    width: 300px;
+    height: 30px;
+    border: 0px solid black;
+}
+ 
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  #popup{
+    display:none;
+    position:absolute;
+    color: white;
+    background-color: #3a3737;
+    border: 1px solid #5a5454;
+    border-radius: 10px;
+    position: fixed;
+    left: 50%;
+    top: 17%;
+    opacity: 0.8;
+    transform:translate(-50%,-50%);
+    padding: 20px;
+    z-index: 1000;
+  }
+  #popup.hvisible{
+    display: block;
+  }
+  h3,h4{
+    padding: 1px;
+  }
