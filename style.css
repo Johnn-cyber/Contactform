@@ -37,16 +37,10 @@ input{
   body {
     font-size: 14px;
   }
-  .image {
-    width: 90%;
-  }
 }
 @media (min-width: 1440px) {
   body {
     font-size: 14px;
-  }
-  .container {
-    width: 80%; 
   }
 }
 #qry,#qry1{
