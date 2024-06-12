@@ -33,16 +33,6 @@ input{
    margin-bottom: 14px;
    margin-top: 5px;
 }
-@media (max-width: 375px) {
-  body {
-    font-size: 14px;
-  }
-}
-@media (min-width: 1440px) {
-  body {
-    font-size: 14px;
-  }
-}
 #qry,#qry1{
     border: 1px solid rgb(54, 53, 53);
     padding:2px 35px 0 10px;
