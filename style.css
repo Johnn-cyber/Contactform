@@ -41,8 +41,11 @@ input{
   }
     .first{
         flex-direction:column;
-        max-width:100%;
-        justify-self:center;
+        align-content:center;
+        flex-wrap:wrap;
+    }
+    .firstname, .lastname{
+        width:100%
     }
     form{
         max-width:100%;
@@ -123,6 +126,7 @@ input[type="submit"]:hover {
  textarea{
     width: 100% !important
   };
+
 
 
 
