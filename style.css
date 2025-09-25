@@ -40,6 +40,9 @@ input{
   .image {
     width: auto;
   }
+    #qry1{
+        width:100%;
+    }
 }
 @media (min-width: 1440px) {
   body {
@@ -101,3 +104,4 @@ input[type="submit"]:hover {
  textarea{
     width: 100% !important
   };
+
