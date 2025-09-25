@@ -70,6 +70,7 @@ input{
 
 .qry{
     display: flex;
+    align-self:center;
 }
 input[type="submit"]{
     display: block;
@@ -111,6 +112,7 @@ input[type="submit"]:hover {
  textarea{
     width: 100% !important
   };
+
 
 
 
