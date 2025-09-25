@@ -44,6 +44,17 @@ input{
        flex-direction:column;
     }
 }
+@media (max-width: 760px) {
+  body {
+    font-size: 14px;
+  }
+  .image {
+    width: auto;
+  }
+    .qry{
+       flex-direction: column;
+    }
+}
 @media (min-width: 1440px) {
   body {
     font-size: 18px;
@@ -104,5 +115,6 @@ input[type="submit"]:hover {
  textarea{
     width: 100% !important
   };
+
 
 
