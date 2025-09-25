@@ -42,6 +42,7 @@ input{
   }
     .qry{
        flex-direction:column;
+        text-align:center;
     }
 }
 @media (max-width: 760px) {
@@ -53,6 +54,7 @@ input{
   }
     .qry{
        flex-direction: column;
+          text-align:center;
     }
 }
 @media (min-width: 1440px) {
@@ -115,6 +117,7 @@ input[type="submit"]:hover {
  textarea{
     width: 100% !important
   };
+
 
 
 
