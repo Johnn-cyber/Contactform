@@ -42,6 +42,12 @@ input{
     form{
         max-width:100%;
     }
+    .qry{
+       flex-direction:column;
+        text-align:center;
+        justify-self:center;
+        width:fit-content;
+    }
 }
 @media (max-width: 760px) {
   body {
@@ -112,6 +118,7 @@ input[type="submit"]:hover {
  textarea{
     width: 100% !important
   };
+
 
 
 
