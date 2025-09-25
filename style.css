@@ -41,6 +41,8 @@ input{
   }
     .first{
         flex-direction:column;
+        max-width:100%;
+        justify-self:center;
     }
     form{
         max-width:100%;
@@ -121,6 +123,7 @@ input[type="submit"]:hover {
  textarea{
     width: 100% !important
   };
+
 
 
 
