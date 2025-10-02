@@ -51,7 +51,7 @@ input{
 }
 #qry1{
     border: 1px solid rgb(54, 53, 53);
-    padding:2px 37px 0 10px;
+    padding:2px 10px 0 10px;
     border-radius: 5px;
     height: 25px;
     margin-bottom: 15px;
@@ -101,3 +101,4 @@ input[type="submit"]:hover {
  textarea{
     width: 100% !important
   };
+
