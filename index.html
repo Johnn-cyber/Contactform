@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Contact form</title>
 </head>
@@ -18,24 +19,24 @@
   <div class="first">
     <div class="firstname">
   <label for="firstname">Firstname</label><br>
-  <input type="text" id="firstname" required>
+  <input type="text" name="firstname" required>
 </div>
 <div class="lastname">
   <label for="lastname">Lastname</label><br>
-  <input type="text" id="lastname" required><br>
+  <input type="text" name="lastname" required><br>
 </div>
 </div>
   <label for="email">E-mail Address</label><br>
-  <input type="email" id="email" name="email" required><br>
+  <input type="email" id="email" required><br>
   <label for="querytype">Query type</label>
 <br>
 <div class="qry">
-  <div id="qry1"><input type="radio" id="querytype" name="querytype" value="General enquiry">General Enquiry</div>
-  <div id="qry1"><input type="radio" id="querytype" name="querytype" value="Support Request">Support Request</div>
+  <div id="qry1"><input type="radio" name="querytype">General Enquiry</div>
+  <div id="qry1"><input type="radio" name="querytype">Support Request</div>
 </div>
   <label for="Message">Message</label><br>
-  <textarea rows="3" cols="45" id="Message"></textarea><br>
-  <input type="checkbox" id="check"><label for="check">I hereby consent to being contacted by the team</label>
+  <textarea rows="3" cols="45"></textarea><br>
+  <input type="checkbox" name="check" required!>I hereby consent to being contacted by the team
   <input type="submit" name="submit" style="align-self: center;">
 </form> 
 <div id="popup" class="hidden">
